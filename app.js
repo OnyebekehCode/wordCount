@@ -16,8 +16,7 @@ button.addEventListener("click", checkValidInput)
 
 function countWords(){
 output = [input.value].toString()
-console.log(output)
 let count = output.split(" ")
- count = `Your article contains ${output.length} words`
+ count = `Your article contains ${count.length} words`
 result.textContent = count
 }
